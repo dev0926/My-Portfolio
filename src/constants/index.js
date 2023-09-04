@@ -128,36 +128,54 @@ const technologies = [
 
 const experiences = [
   {
-    title: "IT Engineering (Internship)",
-    company_name: "PT PLN (Persero) UP 3 Makassar Utara",
-    icon: pln,
-    iconBg: "#FFFFFF",
-    date: "Jun 2021 - Dec 2021",
-    points: [
-      "Build an application project 'IntPlan (Inspection to Platinum)' tool to facilitate the implementation and monitoring of customer sampling according to DLPD, TO and LBKB. The data is integrated with data spreadsheet PLN-UP3 Makassar",
-      "Creating a chatbot that is integrated with the Whatsapp application to help employees get detailed customer information that they want to check the electric meter in location.",
-    ],
-  },
-  {
-    title: "Mobile Development Android",
-    company_name: "Bangkit Academy led by Google, GoTo, & Traveloka",
-    icon: bangkit,
-    iconBg: "#FFFFFF",
-    date: "Feb 2022 - Aug 2022",
-    points: [
-      "Build several Android application with applied MVVM Architecture pattern and using Kotlin as a programming language.",
-      "Collaborating with Machine Learning path and Cloud Computing path to create product-base capstone project.",
-      "Build an AUDI (Autism Detection for Children) application for Product-based Capstone project.",
-    ],
-  },
-  {
-    title: "Mobile Engineering Android (Apprenticeship)",
-    company_name: "GoTo Impact Foundation",
+    title: "Senior Software Engineer",
+    company_name: "InspiringApps",
     icon: goto,
     iconBg: "#FFFFFF",
-    date: "Jun 2023 - Present",
+    date: "Jun 2021 - Jul 2023",
     points: [
-      "Build a Disaster Tracker designed to track natural disasters, such as floods, earthquakes, fires, and volcanic eruptions, in Indonesia. The concept used in this application uses the MVVM Design Pattern, S.O.L.I.D Principle and using Dagger Hilt.",
+      "Implemented agile processes and CI/CD pipelines, reducing software deployment time by 40% and improving code quality by 25%.",
+      "Collaborated with product management and UI/UX designers to deliver a revamped user interface, leading to a 15% increase in user engagement and a 10% reduction in user errors.",
+      "Utilize powerful UI frameworks such as Vue.js, Nuxt.js, React, Tailwind UI, and others to optimize development speed.",
+      "Skills: Vue.js, Nuxt.js, Tailwind UI, React, ...",
+    ],
+  },
+  {
+    title: "Full-Stack Developer",
+    company_name: "Savas Labs",
+    icon: goto,
+    iconBg: "#FFFFFF",
+    date: "Feb 2018 - Jun 2021",
+    points: [
+      "Collaborate with executives, management, and partners to support UI development needs.",
+      "Construct and implement technology best practices, guidelines, and repeatable processes.",
+      "Architect and implement robust backend systems, ensuring seamless data management, and optimizing performance for web applications.",
+      "Skills: Express, MongoDB, Node.js, Redux, TypeScript, ...",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Episode Six",
+    icon: bangkit,
+    iconBg: "#FFFFFF",
+    date: "Apr 2016 - Jan 2018 ",
+    points: [
+      "Deliver optimal user experience using the latest frontend technologies.",
+      "Build highly reusable UI components that compose the Tradefull design system.",
+      "Develop high-performance user interface code that aligns with PageSpeed insights.",
+      "Skills: MySQL, JavaScript, React.js, ...",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Kunai",
+    icon: pln,
+    iconBg: "#FFFFFF",
+    date: "Jun 2014 - Apr 2016",
+    points: [
+      "Converted wireframes and designs into responsive and user-friendly websites, ensuring pixel-perfect implementation.",
+      "Worked as a collaborative member of the Agile team.",
+      "Skills: Agile Methodologies, JavaScript, React.js, CSS, SCSS, ...",
     ],
   },
 ];
