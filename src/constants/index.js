@@ -17,9 +17,14 @@ import {
   goto,
   pln,
   css,
+  scss,
   reactjs,
   redux,
   tailwind,
+  nextjs,
+  vue,
+  nuxt,
+  express,
   nodejs,
   mongodb,
   git,
@@ -73,16 +78,8 @@ const services = [
 
 const technologies = [
   {
-    name: "Android",
-    icon: android,
-  },
-  {
-    name: "Kotlin",
-    icon: kotlin,
-  },
-  {
-    name: "Java",
-    icon: java,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
     name: "HTML 5",
@@ -93,16 +90,36 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "SCSS",
+    icon: scss,
   },
   {
-    name: "PHP",
-    icon: php,
+    name: "React",
+    icon: reactjs,
+  },
+  {
+    name: "Next",
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "Vue",
+    icon: vue,
+  },
+  {
+    name: "Nuxt",
+    icon: nuxt,
+  },
+  {
+    name: "Node",
+    icon: nodejs,
+  },
+  {
+    name: "Express",
+    icon: express,
   },
   {
     name: "MongoDB",
@@ -113,16 +130,8 @@ const technologies = [
     icon: mysql,
   },
   {
-    name: "Firebase",
-    icon: firebase,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
 ];
 

@@ -26,6 +26,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.svg";
+import scss from "./tech/scss.png";
+import vue from "./tech/vue.png";
+import nuxt from "./tech/nuxt.svg";
+import express from "./tech/express.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -83,4 +88,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  nextjs,
+  scss,
+  vue,
+  nuxt,
+  express,
 };
