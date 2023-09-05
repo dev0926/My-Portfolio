@@ -16,6 +16,10 @@ import {
   bangkit,
   goto,
   pln,
+  inspiringApps,
+  savasLab,
+  episodeSix,
+  kunai,
   css,
   scss,
   reactjs,
@@ -40,6 +44,9 @@ import {
   threejs,
   php,
   disaster,
+  fourLaps,
+  wyndhamhotels,
+  marblesofmumbles,
 } from "../assets";
 
 export const navLinks = [
@@ -139,7 +146,7 @@ const experiences = [
   {
     title: "Senior Software Engineer",
     company_name: "InspiringApps",
-    icon: goto,
+    icon: inspiringApps,
     iconBg: "#FFFFFF",
     date: "Jun 2021 - Jul 2023",
     points: [
@@ -152,7 +159,7 @@ const experiences = [
   {
     title: "Full-Stack Developer",
     company_name: "Savas Labs",
-    icon: goto,
+    icon: savasLab,
     iconBg: "#FFFFFF",
     date: "Feb 2018 - Jun 2021",
     points: [
@@ -165,7 +172,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Episode Six",
-    icon: bangkit,
+    icon: episodeSix,
     iconBg: "#FFFFFF",
     date: "Apr 2016 - Jan 2018 ",
     points: [
@@ -178,7 +185,7 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "Kunai",
-    icon: pln,
+    icon: kunai,
     iconBg: "#FFFFFF",
     date: "Jun 2014 - Apr 2016",
     points: [
@@ -218,9 +225,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Intplan",
+    name: "FourLaps",
     description:
-      "Intplan (Inspection to Platinum) is a tools to facilitate implementation and monitoring customer sampling according to DLPD, TO, and LBKB on PLN UP 3 Makassar Utara.",
+      "Fourlaps is a New York-based brand that creates functional athletic apparel. <br></br> We are in and of the city of New York City.<br></br>",
     tags: [
       {
         name: "kotlin",
@@ -235,13 +242,13 @@ const projects = [
         color: "white-text-gradient",
       },
     ],
-    image: intplan,
-    source_code_link: "https://github.com/raflisalam/PLN_IntPlan",
+    image: fourLaps,
+    // source_code_link: "https://github.com/raflisalam/PLN_IntPlan",
   },
   {
-    name: "Isyaratku",
+    name: "WyndhamHotels",
     description:
-      "Isyaratku is a real-time Indonesian Sign Language translator application using the YOLOv5 method, designed to assist who struggle to understand sign language's.",
+      "Wyndham Hotels & Resorts offers the best available rates, breakfast and wifi. Book a hotel room today with Wyndham Rewards, the award-winning hotel loyalty program.<br></br>",
     tags: [
       {
         name: "kotlin",
@@ -256,13 +263,13 @@ const projects = [
         color: "white-text-gradient",
       },
     ],
-    image: isyaratku,
+    image: wyndhamhotels,
     source_code_link: "https://github.com/raflisalam/Isyaratku",
   },
   {
-    name: "Disaster Tracker",
+    name: "Marbles of Mumbles",
     description:
-      "The Disaster tracker is an application designed to track natural disasters, such as floods, earthquakes, fires, and volcanic eruptions, in Indonesia.",
+      "Marbles of Mumbles is a toy seller specializing in a wide variety of marbles, offering a diverse range of colors, sizes, and designs to bring joy and entertainment to marble enthusiasts of all ages.",
     tags: [
       {
         name: "kotlin",
@@ -281,7 +288,7 @@ const projects = [
         color: "white-text-gradient",
       },
     ],
-    image: disaster,
+    image: marblesofmumbles,
     source_code_link:
       "https://github.com/GG-3-0-Mobile-Engineering/ME15-DisasterApps-GG3MEGP0582-MuhammadRafliSalam",
   },

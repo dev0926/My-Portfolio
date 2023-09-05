@@ -39,6 +39,10 @@ import tesla from "./company/tesla.png";
 import pln from "./company/pln.png";
 import goto from "./company/goto.png";
 import bangkit from "./company/bangkit.png";
+import inspiringApps from "./company/inspiringApps.avif";
+import savasLab from "./company/savasLab.avif";
+import episodeSix from "./company/episodeSix.avif";
+import kunai from "./company/kunai.avif";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -46,6 +50,9 @@ import intplan from "./intplan.png";
 import isyaratku from "./isyaratku.png";
 import disaster from "./disaster-tracker.png";
 import tripguide from "./tripguide.png";
+import fourLaps from "./fourLaps.png";
+import wyndhamhotels from "./wyndhamhotels.png";
+import marblesofmumbles from "./marblesofmumbles.png";
 
 export {
   logo,
@@ -93,4 +100,11 @@ export {
   vue,
   nuxt,
   express,
+  inspiringApps,
+  savasLab,
+  episodeSix,
+  kunai,
+  fourLaps,
+  wyndhamhotels,
+  marblesofmumbles,
 };
