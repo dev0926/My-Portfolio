@@ -39,7 +39,7 @@ import tesla from "./company/tesla.png";
 import pln from "./company/pln.png";
 import goto from "./company/goto.png";
 import bangkit from "./company/bangkit.png";
-import inspiringApps from "./company/inspiringApps.avif";
+import inspiringApps from "./company/InspiringApps.avif";
 import savasLab from "./company/savasLab.avif";
 import episodeSix from "./company/episodeSix.avif";
 import kunai from "./company/kunai.avif";
