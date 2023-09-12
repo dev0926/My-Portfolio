@@ -38,7 +38,7 @@ import savasLab from "./company/savasLab.avif";
 import episodeSix from "./company/episodeSix.avif";
 import kunai from "./company/kunai.avif";
 
-import fourLaps from "./fourLaps.png";
+import fourLaps from "./FourLaps.png";
 import wyndhamhotels from "./wyndhamhotels.png";
 import marblesofmumbles from "./marblesofmumbles.png";
 
