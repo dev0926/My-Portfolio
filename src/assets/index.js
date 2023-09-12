@@ -32,24 +32,12 @@ import vue from "./tech/vue.png";
 import nuxt from "./tech/nuxt.svg";
 import express from "./tech/express.png";
 
-import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-import pln from "./company/pln.png";
-import goto from "./company/goto.png";
-import bangkit from "./company/bangkit.png";
 import inspiringApps from "./company/InspiringApps.avif";
 import savasLab from "./company/savasLab.avif";
 import episodeSix from "./company/episodeSix.avif";
 import kunai from "./company/kunai.avif";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import intplan from "./Intplan.png";
-import isyaratku from "./isyaratku.png";
-import disaster from "./disaster-tracker.png";
-import tripguide from "./tripguide.png";
 import fourLaps from "./fourLaps.png";
 import wyndhamhotels from "./wyndhamhotels.png";
 import marblesofmumbles from "./marblesofmumbles.png";
@@ -60,9 +48,6 @@ export {
   android,
   kotlin,
   php,
-  intplan,
-  isyaratku,
-  disaster,
   firebase,
   mysql,
   java,
@@ -85,16 +70,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
   shopify,
-  starbucks,
-  tesla,
-  goto,
-  bangkit,
-  pln,
-  carrent,
-  jobit,
-  tripguide,
   nextjs,
   scss,
   vue,
