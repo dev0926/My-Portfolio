@@ -38,9 +38,9 @@ const Contact = () => {
         "template_adffxx6",
         {
           from_name: form.name,
-          to_name: "Dan Johnson",
+          to_name: "Guillermo Tays",
           from_email: form.email,
-          to_email: "danjohnson0037@gmail.com",
+          to_email: "guillermotays14@gmail.com",
           message: form.message,
         },
         "rPE5DvfZgyEqusIhj"
@@ -78,21 +78,21 @@ const Contact = () => {
 
         <div className="flex gap-4 mt-4">
           <a
-            href="https://github.com/dantaeil"
+            href="https://github.com/guillermotays"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub size={32} color="white" />
           </a>
           <a
-            href="https://www.instagram.com/dantaeil/"
+            href="https://www.instagram.com/guillermotays/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagram size={32} color="white" />
           </a>
           <a
-            href="https://www.linkedin.com/in/dantaeil/"
+            href="https://www.linkedin.com/in/guillermotays/"
             target="_blank"
             rel="noopener noreferrer"
           >

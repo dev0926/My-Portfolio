@@ -131,54 +131,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Senior Software Engineer",
-    company_name: "InspiringApps",
+    title: "Senior Full Stack Engineer",
+    company_name: "Digible",
     icon: inspiringApps,
     iconBg: "#FFFFFF",
-    date: "Jun 2021 - Jul 2023",
+    date: "Feb 2021 - Aug 2023",
     points: [
       "Implemented agile processes and CI/CD pipelines, reducing software deployment time by 40% and improving code quality by 25%.",
       "Collaborated with product management and UI/UX designers to deliver a revamped user interface, leading to a 15% increase in user engagement and a 10% reduction in user errors.",
       "Utilize powerful UI frameworks such as Vue.js, Nuxt.js, React, Tailwind UI, and others to optimize development speed.",
-      "Skills: Vue.js, Nuxt.js, Tailwind UI, React, ...",
-    ],
-  },
-  {
-    title: "Full-Stack Developer",
-    company_name: "Savas Labs",
-    icon: savasLab,
-    iconBg: "#FFFFFF",
-    date: "Feb 2018 - Jun 2021",
-    points: [
-      "Collaborate with executives, management, and partners to support UI development needs.",
-      "Construct and implement technology best practices, guidelines, and repeatable processes.",
-      "Architect and implement robust backend systems, ensuring seamless data management, and optimizing performance for web applications.",
-      "Skills: Express, MongoDB, Node.js, Redux, TypeScript, ...",
+      "Skills: AWS, React.js, Next.js, Express.js, Node.js, Google Analytics, ...",
     ],
   },
   {
     title: "Software Engineer",
-    company_name: "Episode Six",
-    icon: episodeSix,
+    company_name: "Gembah",
+    icon: savasLab,
     iconBg: "#FFFFFF",
-    date: "Apr 2016 - Jan 2018 ",
+    date: "Jul 2019 - Feb 2021 ",
     points: [
-      "Deliver optimal user experience using the latest frontend technologies.",
-      "Build highly reusable UI components that compose the Tradefull design system.",
-      "Develop high-performance user interface code that aligns with PageSpeed insights.",
-      "Skills: MySQL, JavaScript, React.js, ...",
+      "Built and maintained headless ecommerce systems using Next.js and Nuxt.js",
+      "Implemented secure and scalable APIs using Node.js and Ruby on Rails",
+      "Implemented web accessibility best practices and inclusive design techniques in all web development projects, resulting in increased accessibility for users with disabilities.",
+      "Skills: Headless, SSR, SSG, Next.js, Nuxt.js, Ruby on Rails, Google Tag Manager, ...",
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Kunai",
+    title: "Software Engineer",
+    company_name: "Iterative Health",
+    icon: episodeSix,
+    iconBg: "#FFFFFF",
+    date: "Nov 2018 - Jul 2019 ",
+    points: [
+      "Built a healthcare platform that improved patient care and data management through the use of innovative technology solutions.",
+      "Designed and implemented a CI/CD pipeline, streamlining the development and release process and reducing downtime.",
+      "Skills: TypeScript, Tailwind CSS, React.js, Vue.js, ...",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Blockit",
     icon: kunai,
     iconBg: "#FFFFFF",
     date: "Jun 2014 - Apr 2016",
     points: [
-      "Converted wireframes and designs into responsive and user-friendly websites, ensuring pixel-perfect implementation.",
+      "Designed and implemented a CI/CD pipeline, streamlining the development and release process and reducing downtime.",
       "Worked as a collaborative member of the Agile team.",
-      "Skills: Agile Methodologies, JavaScript, React.js, CSS, SCSS, ...",
+      "Skills: AWS, WordPress, Git, JavaScript, React.js, ...",
     ],
   },
 ];
@@ -186,7 +185,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Dan proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Guillermo proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -194,7 +193,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Dan does.",
+      "I've never met a web developer who truly cares about their clients' success like Guillermo does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -202,7 +201,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Dan optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Guillermo optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -276,8 +275,7 @@ const projects = [
       },
     ],
     image: marblesofmumbles,
-    source_code_link:
-      "https://github.com/GG-3-0-Mobile-Engineering/ME15-DisasterApps-GG3MEGP0582-MuhammadRafliSalam",
+    source_code_link: "https://github.com/GuillermoTays/My-Portfolio",
   },
 ];
 

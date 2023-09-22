@@ -49,7 +49,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px]
         max-w-4xl leading-[30px]"
       >
-        I'm a passionate and experienced software engineer with 9+ years of
+        I'm a passionate and experienced software engineer with 8+ years of
         experience in developing web applications using various technologies.
         Seeking to leverage my technical and creative abilities to create
         innovative and user-friendly solutions to users. Adept at following
