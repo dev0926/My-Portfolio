@@ -36,7 +36,7 @@ import shopify from "./company/shopify.png";
 import inspiringApps from "./company/InspiringApps.avif";
 import savasLab from "./company/savasLab.avif";
 import episodeSix from "./company/episodeSix.avif";
-import kunai from "./company/kunai.avif";
+import kunai from "./company/kunai.svg";
 
 import fourLaps from "./FourLaps.png";
 import wyndhamhotels from "./wyndhamhotels.png";

@@ -57,7 +57,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "BackEnd Developer",
+    title: "Software Engineer",
     icon: backend,
   },
   {
@@ -135,25 +135,12 @@ const experiences = [
     company_name: "Digible",
     icon: inspiringApps,
     iconBg: "#FFFFFF",
-    date: "Feb 2021 - Aug 2023",
+    date: "Feb 2021 - Present",
     points: [
-      "Implemented agile processes and CI/CD pipelines, reducing software deployment time by 40% and improving code quality by 25%.",
+      "Developed dynamic and interactive website that ensured high traffic, page views, and user experience, resulting in 40% increase in sales revenue.",
       "Collaborated with product management and UI/UX designers to deliver a revamped user interface, leading to a 15% increase in user engagement and a 10% reduction in user errors.",
       "Utilize powerful UI frameworks such as Vue.js, Nuxt.js, React, Tailwind UI, and others to optimize development speed.",
-      "Skills: AWS, React.js, Next.js, Express.js, Node.js, Google Analytics, ...",
-    ],
-  },
-  {
-    title: "Software Engineer",
-    company_name: "Gembah",
-    icon: savasLab,
-    iconBg: "#FFFFFF",
-    date: "Jul 2019 - Feb 2021 ",
-    points: [
-      "Built and maintained headless ecommerce systems using Next.js and Nuxt.js",
-      "Implemented secure and scalable APIs using Node.js and Ruby on Rails",
-      "Implemented web accessibility best practices and inclusive design techniques in all web development projects, resulting in increased accessibility for users with disabilities.",
-      "Skills: Headless, SSR, SSG, Next.js, Nuxt.js, Ruby on Rails, Google Tag Manager, ...",
+      "Skills: AWS, React.js, Next.js, Express.js, Contentful, Google Analytics, ...",
     ],
   },
   {
@@ -161,7 +148,7 @@ const experiences = [
     company_name: "Iterative Health",
     icon: episodeSix,
     iconBg: "#FFFFFF",
-    date: "Nov 2018 - Jul 2019 ",
+    date: "June 2018 - Feb 2021 ",
     points: [
       "Built a healthcare platform that improved patient care and data management through the use of innovative technology solutions.",
       "Designed and implemented a CI/CD pipeline, streamlining the development and release process and reducing downtime.",
@@ -169,15 +156,15 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer",
-    company_name: "Blockit",
+    title: "Software Developer",
+    company_name: "Aceable",
     icon: kunai,
     iconBg: "#FFFFFF",
-    date: "Jun 2014 - Apr 2016",
+    date: "Apr 2016 - June 2018",
     points: [
-      "Designed and implemented a CI/CD pipeline, streamlining the development and release process and reducing downtime.",
+      "Converted wireframes and designs into responsive and user-friendly websites, ensuring pixel-perfect implementation.",
       "Worked as a collaborative member of the Agile team.",
-      "Skills: AWS, WordPress, Git, JavaScript, React.js, ...",
+      "Skills: Agile Methodologies, JavaScript, React.js, ...",
     ],
   },
 ];
