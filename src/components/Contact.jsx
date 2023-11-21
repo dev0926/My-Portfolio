@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
 
 const Contact = () => {
   const formRef = useRef();
@@ -85,18 +85,18 @@ const Contact = () => {
             <FaGithub size={32} color="white" />
           </a>
           <a
-            href="https://www.instagram.com/guillermotays/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram size={32} color="white" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/guillermotays/"
+            href="https://www.linkedin.com/in/guillermo-tays-8438a9201/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin size={32} color="white" />
+          </a>
+          <a
+            href="mailto:guillermotays14@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGoogle size={32} color="white" />
           </a>
         </div>
 
