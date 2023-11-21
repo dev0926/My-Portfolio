@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import MySvg from "../assets/programmer.svg";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -18,10 +17,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Guillermo Tays</span>
+            Hi, I&apos;m <span className="text-[#915eff]">Guillermo Tays</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Front-End developer enthusiast, a lifetime learner{" "}
+            Full Stack developer enthusiast, a lifetime learner{" "}
             <br className="sm:block hidden" />
             based in Baytown, Texas, United States.
           </p>

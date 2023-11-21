@@ -49,11 +49,14 @@ const About = () => {
         className="mt-4 text-secondary text-[17px]
         max-w-4xl leading-[30px]"
       >
-        I'm a passionate and experienced software engineer with 8+ years of
-        experience in developing web applications using various technologies.
-        Seeking to leverage my technical and creative abilities to create
-        innovative and user-friendly solutions to users. Adept at following
-        Agile methodology and delivering projects on time and within budget.
+        Dynamic Full Stack Engineer with a relentless pursuit of crafting
+        seamless digital solutions. I bridge the gap between design and
+        functionality, merging a flair for captivating user interfaces with the
+        robustness of back-end systems. I thrive in solving complex problems,
+        optimizing performance, and ensuring the security of web applications.
+        Adept at agile methodologies, I&apos;m a collaborative team player
+        committed to delivering exceptional user experiences. Let&apos;s turn
+        visionary ideas into cutting-edge realities.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

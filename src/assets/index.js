@@ -42,6 +42,13 @@ import fourLaps from "./FourLaps.png";
 import wyndhamhotels from "./wyndhamhotels.png";
 import marblesofmumbles from "./marblesofmumbles.png";
 
+import moonpig from "./moonpig.png";
+import rhone from "./rhone.png";
+import aceable from "./aceable.png";
+import ensorings from "./ensorings.png";
+import timeandtide from "./timeandtide.png";
+import restorixhelath from "./restorixhealth.png";
+
 export {
   logo,
   backend,
@@ -83,4 +90,10 @@ export {
   fourLaps,
   wyndhamhotels,
   marblesofmumbles,
+  moonpig,
+  rhone,
+  aceable,
+  ensorings,
+  restorixhelath,
+  timeandtide,
 };

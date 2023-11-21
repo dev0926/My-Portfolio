@@ -11,7 +11,6 @@ import {
   typescript,
   html,
   inspiringApps,
-  savasLab,
   episodeSix,
   kunai,
   css,
@@ -34,6 +33,12 @@ import {
   fourLaps,
   wyndhamhotels,
   marblesofmumbles,
+  moonpig,
+  aceable,
+  rhone,
+  ensorings,
+  restorixhelath,
+  timeandtide,
 } from "../assets";
 
 export const navLinks = [
@@ -53,7 +58,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "FrontEnd Developer",
+    title: "FrontEnd Engineer",
     icon: mobile,
   },
   {
@@ -61,11 +66,11 @@ const services = [
     icon: backend,
   },
   {
-    title: "Web Developer",
+    title: "Full Stack Engineer",
     icon: web,
   },
   {
-    title: "JavaScript Libraries",
+    title: "JavaScript Specialist",
     icon: creator,
   },
 ];
@@ -127,11 +132,39 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  // {
+  //   name: "php",
+  //   icon: php,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+  // {
+  //   name: "firebase",
+  //   icon: firebase,
+  // },
+  // {
+  //   name: "javascript",
+  //   icon: javascript,
+  // },
+  // {
+  //   name: "tailwind",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "shopify",
+  //   icon: shopify,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
 ];
 
 const experiences = [
   {
-    title: "Senior Full Stack Engineer",
+    title: "Software Engineer",
     company_name: "Digible",
     icon: inspiringApps,
     iconBg: "#FFFFFF",
@@ -140,31 +173,35 @@ const experiences = [
       "Developed dynamic and interactive website that ensured high traffic, page views, and user experience, resulting in 40% increase in sales revenue.",
       "Collaborated with product management and UI/UX designers to deliver a revamped user interface, leading to a 15% increase in user engagement and a 10% reduction in user errors.",
       "Utilize powerful UI frameworks such as Vue.js, Nuxt.js, React, Tailwind UI, and others to optimize development speed.",
-      "Skills: AWS, React.js, Next.js, Express.js, Contentful, Google Analytics, ...",
+      "Successfully utilized Node.js and Nest.js to build server-side applications with optimal speed and efficiency, resulting in reduced response times and improved user experiences.",
+      "Skills: AWS, Next.js, Nuxt.js, Node.js, Nest.js, Tailwind CSS, Shopify Plus, Google Analytics, GTM, ...",
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Full Stack Web Developer",
     company_name: "Iterative Health",
     icon: episodeSix,
     iconBg: "#FFFFFF",
     date: "June 2018 - Feb 2021 ",
     points: [
       "Built a healthcare platform that improved patient care and data management through the use of innovative technology solutions.",
-      "Designed and implemented a CI/CD pipeline, streamlining the development and release process and reducing downtime.",
-      "Skills: TypeScript, Tailwind CSS, React.js, Vue.js, ...",
+      "Developed a RESTful API with Node.js and Express.js, enabling seamless integration with third-party services and enhancing the user experience through real-time data updates.",
+      "Increased website performance by 20% by refactoring React components and using Redux for state management.",
+      "Skills: TypeScript, React.js, Vue.js, Node.js, Express.js, Redux, WebSocket, ...",
     ],
   },
   {
-    title: "Software Developer",
+    title: "Front-End UI Developer",
     company_name: "Aceable",
     icon: kunai,
     iconBg: "#FFFFFF",
     date: "Apr 2016 - June 2018",
     points: [
       "Converted wireframes and designs into responsive and user-friendly websites, ensuring pixel-perfect implementation.",
-      "Worked as a collaborative member of the Agile team.",
-      "Skills: Agile Methodologies, JavaScript, React.js, ...",
+      "Increased user engagement by 40% through the design and implementation of a progressive web application using Angular.",
+      "Improved the performance of Angular applications by 30% by optimizing the rendering pipeline and using caching techniques.",
+      "Migrated a legacy website to React, resulting in a 30% increase in user engagement.",
+      "Skills: JavaScript, Angular, AngularJS, React.js, HTML, CSS, SCSS, ...",
     ],
   },
 ];
@@ -198,71 +235,152 @@ const testimonials = [
 
 const projects = [
   {
-    name: "FourLaps",
+    name: "MoonPig",
     description:
-      "Fourlaps is a New York-based brand that creates functional athletic apparel. <br></br> We are in and of the city of New York City.<br></br>",
+      "Moonpig is dedicated to celebrating life's special moments by offering a vast selection of personalized and ready-made cards, all easily accessible through their user-friendly app. With thousands of designs and top-notch technology, Moonpig makes it effortless to connect with loved ones and send heartfelt greetings, ensuring you never miss an occasion.",
     tags: [
       {
-        name: "kotlin",
+        name: "typescript",
+        color: "white-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "white-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "white-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "white-text-gradient",
+      },
+      {
+        name: "contentful",
+        color: "white-text-gradient",
+      },
+    ],
+    image: moonpig,
+  },
+  {
+    name: "Rhone",
+    description:
+      "Men's high-performance activewear engineered for comfort with anti-stink technology. Buy now with fast shipping and free returns/exchanges!<br></br>",
+    tags: [
+      {
+        name: "vuejs",
+        color: "white-text-gradient",
+      },
+      {
+        name: "nuxtjs",
+        color: "white-text-gradient",
+      },
+      {
+        name: "shopify",
+        color: "white-text-gradient",
+      },
+      {
+        name: "svelte",
+        color: "white-text-gradient",
+      },
+    ],
+    image: rhone,
+  },
+  {
+    name: "Aceable",
+    description:
+      "Aceable is an online education platform that offers a variety of courses, including drivers ed, real estate, and insurance. Aceable's courses are designed to be convenient and affordable, and they can be taken at your own pace. ",
+    tags: [
+      {
+        name: "angular",
+        color: "white-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "white-text-gradient",
+      },
+      {
+        name: "express",
         color: "white-text-gradient",
       },
       {
         name: "typescript",
         color: "white-text-gradient",
       },
-      {
-        name: "mvvm",
-        color: "white-text-gradient",
-      },
     ],
-    image: fourLaps,
-    // source_code_link: "https://github.com/raflisalam/PLN_IntPlan",
+    image: aceable,
   },
   {
-    name: "WyndhamHotels",
+    name: "Enso Rings",
     description:
-      "Wyndham Hotels & Resorts offers the best available rates, breakfast and wifi. Book a hotel room today with Wyndham Rewards, the award-winning hotel loyalty program.<br></br>",
+      "Enso Rings are stylish, comfortable, and safe silicone rings that are designed to be an active person’s best friend. They are made from a soft, flexible silicone material that is hypoallergenic and easy to clean. They are also designed to break away from the finger when under stress, which can help to prevent ring avulsion, a serious injury that can occur when a ring is caught on something and pulled off the finger. ",
     tags: [
       {
-        name: "kotlin",
+        name: "vuejs",
         color: "white-text-gradient",
       },
       {
-        name: "YOLOv5",
+        name: "nuxtjs",
         color: "white-text-gradient",
       },
       {
-        name: "object-detection",
+        name: "shopify",
+        color: "white-text-gradient",
+      },
+      {
+        name: "storyblok",
         color: "white-text-gradient",
       },
     ],
-    image: wyndhamhotels,
-    source_code_link: "https://github.com/raflisalam/Isyaratku",
+    image: ensorings,
   },
   {
-    name: "Marbles of Mumbles",
+    name: "Time and Tide Watches",
     description:
-      "Marbles of Mumbles is a toy seller specializing in a wide variety of marbles, offering a diverse range of colors, sizes, and designs to bring joy and entertainment to marble enthusiasts of all ages.",
+      "Time and Tide Watches is an Australian-based online retailer that specializes in luxury watches and accessories, offering a wide selection of brands and services to cater to the needs of watch enthusiasts. ",
     tags: [
       {
-        name: "kotlin",
+        name: "wordpress",
         color: "white-text-gradient",
       },
       {
-        name: "hilt",
+        name: "php",
         color: "white-text-gradient",
       },
       {
-        name: "mvvm",
+        name: "mysql",
         color: "white-text-gradient",
       },
       {
-        name: "clean-architecture",
+        name: "wp plugins",
         color: "white-text-gradient",
       },
     ],
-    image: marblesofmumbles,
-    source_code_link: "https://github.com/GuillermoTays/My-Portfolio",
+    image: timeandtide,
+  },
+  {
+    name: "RestroixHealth",
+    description:
+      "RestorixHealth is a leading provider of wound care solutions, offering a wide range of services and products to help patients heal and improve their quality of life. The company's services include wound center management, supplies and equipment, and in-home wound care. RestorixHealth is committed to providing high-quality, compassionate care to patients with chronic wounds.",
+    tags: [
+      {
+        name: "vuejs",
+        color: "white-text-gradient",
+      },
+      {
+        name: "wordpress",
+        color: "white-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "white-text-gradient",
+      },
+      {
+        name: "php",
+        color: "white-text-gradient",
+      },
+    ],
+    image: restorixhelath,
   },
 ];
 
