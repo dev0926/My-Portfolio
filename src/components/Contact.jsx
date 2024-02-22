@@ -78,14 +78,14 @@ const Contact = () => {
 
         <div className="flex gap-4 mt-4">
           <a
-            href="https://github.com/guillermotays"
+            href="https://github.com/dev0926"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub size={32} color="white" />
           </a>
           <a
-            href="https://www.linkedin.com/in/guillermo-tays-8438a9201/"
+            href="https://www.linkedin.com/in/guillermo-tays/"
             target="_blank"
             rel="noopener noreferrer"
           >
