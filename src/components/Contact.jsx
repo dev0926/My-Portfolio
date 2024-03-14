@@ -85,7 +85,7 @@ const Contact = () => {
             <FaGithub size={32} color="white" />
           </a>
           <a
-            href="https://www.linkedin.com/in/guillermo-tays/"
+            href="https://www.linkedin.com/in/guillermo-tays-a361ab2b9/"
             target="_blank"
             rel="noopener noreferrer"
           >
